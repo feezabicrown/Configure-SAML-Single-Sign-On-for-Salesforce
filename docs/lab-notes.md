@@ -24,17 +24,21 @@ I opened the Salesforce Setup menu and navigated to Identity → Single Sign-On 
 
 ![](../Screenshots/Single-sign-on-settings-page.png)
 
+*Figure: Single sign-on settings page*
+
 ## Step 3 — Enable SAML Authentication
 
 I opened Single Sign-On Settings in Salesforce and selected Edit to enable SAML authentication. This allowed Salesforce to accept SAML assertions from an external identity provider such as Microsoft Entra ID.
 
 ![](../Screenshots/Salesforce-Single-Sign-On-Settings-page-with-SAML-enabled..png)
+*Figure: Salesforce Single Sign-On Settings page with SAML enabled.*
 
 
 ## Step 4 — Configure Basic SAML Settings in Entra ID
 I configured the required Basic SAML settings for the Salesforce enterprise application in Microsoft Entra ID. I used the Salesforce My Domain URL and Organization ID to build the Reply URL, which tells Entra where to send the SAML authentication response after sign-in.
 
 ![](../Screenshots/Salesforce-Basic-SAML-settings-configured-in-Microsoft-Entra-ID..png)
+*Figure: Salesforce Basic SAML settings configured in Microsoft Entra ID.
 
 ## Step 5 — Download Federation Metadata XML
 
