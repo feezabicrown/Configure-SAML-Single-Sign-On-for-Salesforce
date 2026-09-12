@@ -78,7 +78,7 @@ I created a Salesforce test user account to validate Single Sign-On (SSO) authen
 I signed in to Microsoft 365 as the test user Juhani Nieminen and accessed the My Apps portal. The Salesforce enterprise application was visible to the assigned user, confirming that the application assignment was successful and available for Single Sign-On testing.
 
 ![](../Screenshots/verify-access-through-my-apps-portal.png)
-*Figure: Salesforce application visible in My Apps for the Juhani Nieminen test user.*
+*Figure: Salesforce application visible in My Apps for Juhani Nieminen.*
 
 ## Step 12 — Verify Single Sign-On Authentication
 I launched the Salesforce application from the Microsoft 365 My Apps portal while signed in as Juhani Nieminen. The application authenticated the user through Microsoft Entra ID and automatically granted access to Salesforce without requiring separate Salesforce credentials.
